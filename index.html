@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <script src="script.js"></script>
+	</head>
+	<body>
+		<h1><a href="https://esolangs.org/wiki/Drawfuck">Drawfuck</a> interpreter</h1>
+		<h2>Written by Dtp09</h2>
+		<table>
+			<tr>
+				<td>
+					<b>code</b>
+					<textarea cols="50" rows ="10" id="code"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<b>input</b>
+					<textarea cols="50" rows ="3" id="input"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button onclick="execute()">Execute</button>
+					<b>Sometimes execution takes a bit of time just trust yourself you didn't make an infinite loop</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<b>output</b>
+					<canvas id="canvas" width="256" height="256"><canvas>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
+
+
